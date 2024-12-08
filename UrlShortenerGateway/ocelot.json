@@ -1,0 +1,55 @@
+{
+    "GlobalConfiguration": {
+        "BaseUrl": "https://localhost:8888"
+    },
+    "Routes": [
+        {
+            "UpstreamPathTemplate": "/getUrl",
+            "UpstreamHttpMethod": [ "Get" ],
+            "DownstreamPathTemplate": "/api/Urls",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 1234
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/getUrl/{id}",
+            "UpstreamHttpMethod": [ "Get" ],
+            "DownstreamPathTemplate": "/api/Urls/{id}",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 1234
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/createUrl",
+            "UpstreamHttpMethod": [ "Post" ],
+            "DownstreamPathTemplate": "/api/Urls",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 1234
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/deleteUrl/{id}",
+            "UpstreamHttpMethod": [ "Delete" ],
+            "DownstreamPathTemplate": "/api/Urls/{id}",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 1234
+                }
+            ]
+        }
+    ]
+}

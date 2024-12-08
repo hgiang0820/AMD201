@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "5t/nUJGtuquHOnOhpBq6n8yoKkyg8zL2OmIyn3cdJRA=",
+  "Source": "UrlShortenerGateway",
+  "BasePath": "_content/UrlShortenerGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
